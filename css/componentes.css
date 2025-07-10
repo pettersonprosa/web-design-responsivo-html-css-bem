@@ -8,26 +8,37 @@
 }
 
 .plano__cabecalho {
-  background-color: #95a4a5;
-  color: #fff;
-  text-align: center;
-  line-height: 2.5;
+  /* display e box model*/
   margin: -10px;
   margin-bottom: 0;
+
+  /* cores */
+  background-color: #95a4a5;
+  color: #fff;
+
+  /* texto */
+  text-align: center;
+  line-height: 2.5;
   font-weight: normal;
   font-size: 28px;
 }
 
 .plano__preco {
+  /* display e box model */
+  margin: 20px 0;
+
+  /* texto */
   text-align: center;
   font-size: 28px;
-  margin: 20px 0;
 }
 
 .plano__caracteristicas {
-  list-style: none;
+  /* display e box model */
   padding: 0;
   margin: 20px 0;
+
+  /* outros */
+  list-style: none;
 }
 
 .plano__caracteristicas > li {
@@ -43,23 +54,37 @@
 \*------------------------------------*/
 
 .botao {
+  /* display e box model */
   display: inline-block;
+  padding: 12px 16px;
+
+  /* cores */
   background-color: #bbb;
   color: #fff;
-  padding: 12px 16px;
+
+  /* texto */
   text-decoration: none;
 }
 
-.botao:hover, .botao:focus {
+.botao:hover,
+.botao:focus {
+  /* cores */
   background-color: #aaa;
-  text-decoration: none;
   color: #fff;
+
+  /* texto */
+  text-decoration: none;
 }
 
 .botao--assinar {
   background-color: #127d00;
 }
 
-.botao--assinar:hover, .botao--assinar:focus {
+.botao--assinar:hover,
+.botao--assinar:focus {
+  background-color: #0e6400;
+}
+
+h1 > div > li {
   background-color: #0e6400;
 }
